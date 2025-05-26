@@ -1,5 +1,6 @@
 import dotenv from "dotenv";
 import nodemailer from "nodemailer";
+
 dotenv.config();
 
 const mailTransport = nodemailer.createTransport({

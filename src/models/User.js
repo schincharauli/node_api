@@ -1,7 +1,7 @@
 import { Schema, model } from "mongoose";
 import { v4 as uuid } from "uuid";
 
-// const { String, Number } = Schema.types;
+const { String } = Schema.Types;
 
 const userSchema = new Schema({
   name: {
